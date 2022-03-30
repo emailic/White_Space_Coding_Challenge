@@ -1,3 +1,11 @@
 # White_Space_Coding_Challenge
 Here you might find my solutions to the two problems from the coding challenge by the White Space Solutions. 
 https://whitespace.energy/
+
+The modified text of the exercises is the following:
+
+Exercise 1:
+Consider a bus on a route with N stops. At each stop there are passengers that wish to board. The bus capacity is limited, so there may be times when not all passengers that wish to board can fit on the bus. Determine which passenger groups are allowed to board at every stop, assuming you have the information on the groups in advance. Write an algorithm that takes as input a number of stops N (N<20), a number of available bus seats C (C<30), a random list of passenger groups, each parameterized by (group_size, hop_on_location, hop_off_location). The algorithm should return a list of groups to board the bus, total number of passengers that have boarded the bus. Passenger groups cannot be split. You can assume locations are labelled alphabetically, and that groups only wish to visit locations that are alphabetically later than their starting position (i.e., groups can travel from A to C, but not from C to A). Objective: Assume that the price of a ticket (per person) is independent of the distance travelled (i.e., there is a fixed cost per person per ticket). Plan the allocation such that the total income of the bus is maximized.
+
+Exercise 2:
+The task is to plan orders in time across two preparation and two cooking stations, given a list of orders coming in. Each order has a preparation time and a cooking time. The algorithm takes as input a list of orders of length N with their corresponding times (preparation and cooking), and it returns the sequence in which the orders must be prepared and cooked. You cannot prepare more than 2 orders at any given time. You cannot cook more than 2 orders at any given time. All orders must be prepared before they can be cooked. Orders do not need to be cooked straight after being prepared. Cooking times and preparation times are multiples of 5 minutes with a maximum duration of 1 hour (so the cooking/preparation time takes on values of 5,10,15,20...60 min). The objective is to plan the sequencing of orders such that the total time needed to deliver (prepare and cook) all orders is minimized.
