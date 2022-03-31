@@ -2,7 +2,7 @@
 Here you might find my solutions to the two problems from the coding challenge by the White Space Solutions. 
 https://whitespace.energy/
 
-The modified text of the exercises is the following:
+The adapted text of the original exercises is the following:
 
 Exercise 1:
 Consider a bus on a route with N stops. At each stop there are passengers that wish to board. The bus capacity is limited, so there may be times when not all passengers that wish to board can fit on the bus. Determine which passenger groups are allowed to board at every stop, assuming you have the information on the groups in advance. Write an algorithm that takes as input a number of stops N (N<20), a number of available bus seats C (C<30), a random list of passenger groups, each parameterized by (group_size, hop_on_location, hop_off_location). The algorithm should return a list of groups to board the bus, total number of passengers that have boarded the bus. Passenger groups cannot be split. You can assume locations are labelled alphabetically, and that groups only wish to visit locations that are alphabetically later than their starting position (i.e., groups can travel from A to C, but not from C to A). Objective: Assume that the price of a ticket (per person) is independent of the distance travelled (i.e., there is a fixed cost per person per ticket). Plan the allocation such that the total income of the bus is maximized.
