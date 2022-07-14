@@ -36,3 +36,12 @@ Exercise 2:<br/>
 The task is to plan orders in time across two preparation and two cooking stations, given a list of orders coming in. Each order has a preparation time and a cooking time. The algorithm takes as input a list of orders of length N with their corresponding times (preparation and cooking), and it returns the sequence in which the orders must be prepared and cooked. You cannot prepare more than 2 orders at any given time. You cannot cook more than 2 orders at any given time. All orders must be prepared before they can be cooked. Orders do not need to be cooked straight after being prepared. Cooking times and preparation times are multiples of 5 minutes with a maximum duration of 1 hour (so the cooking/preparation time takes on values of 5,10,15,20...60 min). <br/>
 The objective is to plan the sequencing of orders such that the total time needed to deliver (prepare and cook) all orders is minimized.  Assume you wish to prioritize kids’ meals. Change your scoring function accordingly. Discuss if/how the total time to deliver
 all orders changes. How would you use the above results to decide on how much you are willing to prioritize kids’ meals over regular ones?
+</br>
+Contrbutions are more than welcome!
+
+
+<div align="center">
+
+### Show some 💚 by starring this repository!
+
+</div>
